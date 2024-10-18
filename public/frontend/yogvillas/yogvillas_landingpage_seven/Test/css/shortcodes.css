@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	/*--------------------------------------------------------------
+	>>> TABLE OF CONTENTS:
+	----------------------------------------------------------------
+	1.Shortcodes
+	2.Columns
+	3.Buttons
+	4.Video slider
+	5.Icon-content Type1
+	6.Testimonials
+	7.Icon-content Type2
+	8.Donutchart
+	9.Team
+	10.Contact-info-box
+
+
+	/*----*****---- << 1.Shortcodes >> ----*****----*/
+
+	.dt-sc-hr-invisible{margin:60px 0px 0px 0px; float:left; width:100%; clear:both; display:block;}
+	.dt-sc-hr-invisible-small{margin:40px 0px 0px 0px; float:left; width:100%; clear:both; display:block;}
+	.dt-sc-margin10{margin:10px 0px 0px 0px; float:left; width:100%; clear:both; display:block;}
+	.dt-sc-margin20{margin:20px 0px 0px 0px; float:left; width:100%; clear:both; display:block;}
+  	.dt-sc-margin50{margin:50px 0px 0px 0px; float:left; width:100%; clear:both; display:block;}
+	.dt-sc-margin70{margin:70px 0px 0px 0px; float:left; width:100%; clear:both; display:block;}
+	.dt-sc-margin15{margin:15px 0px 0px 0px; float:left; width:100%; clear:both; display:block;}
+	.dt-sc-margin30{float:left; width:100%; margin:30px 0px 0px 0px; clear:both; display:block;}
+
+	/*----*****---- << 2.Columns >> ----*****----*/
+	
+	.column { margin:0px 2% 0px 0px; float:left; min-height:1px; position:relative; }
+	.column img { max-width:100%; height:auto; }	
+	.column.last{ margin-right:0px; }	
+	
+	.column.no-space { margin-left:0px; margin-right:0px; }
+	
+	.dt-sc-one-column { width:100%; }
+	.dt-sc-one-fourth { width:23.19%;}
+	.dt-sc-one-half { width:48.9%;}
+	.dt-sc-one-third { width:31.9%;}
+	.dt-sc-one-sixth { width:13%;}
+	
+	.dt-sc-two-third{width:64.8%;}
+	.dt-sc-two-sixth { width:27.5%; }
+	
+	.dt-sc-three-fourth{width:74.5%;}
+	.dt-sc-three-fifth{width:59.2%;}
+	.dt-sc-three-sixth { width:45%;}
+	.dt-sc-four-sixth { width:60%; }
+	
+	.column.no-space.dt-sc-one-fourth { width:24.97%; }
+	.column.no-space.dt-sc-five-sixth { width:84.55%; }
+	.column.no-space.dt-sc-one-third { width:33.2%; }	
+	.column.no-space.dt-sc-three-fifth { width:60%; }
+	
+	/*----*****---- << 3.Buttons >> ----*****----*/
+	.dt-sc-button{font-weight:bold; margin:0 auto; font-size:16px; color:#ffffff; display:table; line-height:normal; border-radius:5px; clear:both; -webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s;}
+	.dt-sc-button.small{padding:10px 35px;}
+	.dt-sc-button.medium{padding:15px 37px;}
+	.dt-sc-button.large{ padding:14px 48px;}
+	
+	.dt-sc-button:hover{background-color:#ffffff;}
+	.dt-sc-button .fa{font-size:18px; font-weight:normal; font-family:FontAwesome; padding:0px 12px;}
+
+	/*----*****---- << 4.Video Slider >> ----*****----*/
+	
+	.dt-sc-video-container , .dt-sc-video-container .dt-sc-fillWidth{ min-height:100%; min-width:100%; top:0; left:0; overflow:hidden; position:absolute;}
+	
+	/*----*****---- << 5.Icon content Type1 >> ----*****----*/	
+	.dt-sc-icon-content{float:left; width:100%; text-align:center;}
+	.dt-sc-icon-content.type1 .hexagon2{width:103px; height:61px; left:0px;}
+	.dt-sc-icon-content.type1 .hexagon2 .corner1, .dt-sc-icon-content.type1 .hexagon2 .corner2{left:-2px;}
+	.dt-sc-icon-content.type1 .hexagon{width:106px; height:62px;}
+	.dt-sc-icon-content.type1 .hexagon2 .fa{-webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s;}
+	.dt-sc-icon-content.type1:hover .hexagon2 .fa{-webkit-transform:scale(1.2) rotateY(360deg); -moz-transform:scale(1.2) rotateY(360deg); -ms-transform:scale(1.2) rotateY(360deg); -o-transform:scale(1.2) rotateY(360deg); transform:scale(1.2) rotateY(360deg);}
+	.dt-sc-icon-content h4{font-size:20px; line-height:22px; font-weight:600; text-transform:uppercase;}
+	.dt-sc-icon-content.type1 .hexagon2 .fa{font-size:32px; position:absolute; width:100%; font-family:FontAwesome; line-height:61px; display:block; color:#090909;}
+
+	/*----*****---- << 6.Testimonial >> ----*****----*/	
+	.dt-sc-testimonial-content h4{font-size:20px; line-height:22px; margin-bottom:0px; color:#ffffff; font-weight:600;}
+	.dt-sc-testimonial-content p{font-weight:400;}
+	.dt-sc-testimonial-content .quotes{font-size:16px; float:left; line-height:25px; font-weight:400; position:relative; margin:0px 0px 20px 30px; color:#ffffff;}
+	.dt-sc-testimonial-content .quotes:before{content:open-quote; display:inline; font-size:60px; font-weight:400; font-family:"Alegreya Sans"; vertical-align:middle; position:absolute; top:12px; left:-30px;}
+	.dt-sc-testimonial-content .quotes:after{content:close-quote; display:inline; font-size:60px; font-weight:400; font-family:"Alegreya Sans"; vertical-align:middle; position:absolute; bottom:-15px; left:53%;}
+	
+	.dt-sc-testimonial-carousel-wrapper { float:left; clear:both; padding:0px; width:100%; position:relative; display:block; }
+
+
+	.dt-sc-star-icons{float:left; margin-left:10px;}
+	.dt-sc-star-icons .fa{font-size:20px; font-family:FontAwesome; font-weight:normal;}
+	.dt-sc-star-icons .fa:hover{color:#ffffff;}
+	.dt-sc-star-icons li{float:left; display:block; cursor:pointer; margin-right:5px;}
+
+	/*----*****---- << 7.Icon content Type2 >> ----*****----*/
+  	.dt-sc-icon-content.type2 h5{font-weight:normal;}	
+	.dt-sc-icon-content.type2 .hexagon, .dt-sc-icon-content.type2 .hexagon2{opacity:0.5;}
+	.dt-sc-icon-content.type2 .hexagon2{width:100px; height:58.5px; left:1px; top:1px;}
+	.dt-sc-icon-content.type2 .hexagon{width:104px; height:61px;}
+	.dt-sc-icon-content.type2 .hexagon, .dt-sc-icon-content.type2 .hexagon .corner1, .dt-sc-icon-content.type2 .hexagon .corner2{background-color:#d9d9d9;}
+	.dt-sc-icon-content.type2 .hexagon2, .dt-sc-icon-content.type2 .hexagon2 .corner1, .dt-sc-icon-content.type2 .hexagon2 .corner2{background-color:#d9d9d9; border-right:1px solid #d9d9d9; border-left:1px solid #d9d9d9;}
+	.dt-sc-icon-content.type2:hover .hexagon, .dt-sc-icon-content.type2:hover .hexagon .corner1, .dt-sc-icon-content.type2:hover .hexagon .corner2{opacity:1; -webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s;} 
+	.dt-sc-icon-content.type2:hover .hexagon2, .dt-sc-icon-content.type2:hover .hexagon2 .corner1, .dt-sc-icon-content.type2:hover .hexagon2 .corner2{background-color:#ffffff; opacity:1; -webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s;}
+	.dt-sc-icon-content.type2 .hexagon-shapes .fa{font-size:18px; font-family:FontAwesome; font-weight:normal;}
+	.dt-sc-icon-content.type2 h2{font-size:40px; font-weight:400; margin-bottom:0px;}
+	.dt-sc-icon-content.type2 .hexagon-icon{float:left; width:100%; position:absolute;}
+	.dt-sc-icon-content.type2 .hexagon-shapes{margin:30px auto 40px;}
+	.dt-sc-icon-content.type2 .hexagon-shapes .fa{-webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s;}
+	.dt-sc-icon-content.type2:hover .hexagon-shapes .fa{-webkit-transform: rotateY(360deg); -moz-transform: rotateY(360deg); -ms-transform: rotateY(360deg); -o-transform: rotateY(360deg); transform: rotateY(360deg);}
+	
+
+	/*----*****---- << 8.Donutchart >> ----*****----*/
+	.dt-sc-donutchart-medium{display:inline-block;}
+	.dt-sc-donutchart1, .dt-sc-donutchart2, .dt-sc-donutchart3, .dt-sc-donutchart4{margin-bottom:35px; font-weight:300;}
+	.dt-sc-donutchart1 div span{color:#fe6b35;}
+	.dt-sc-donutchart2 div span{color:#665de5;}
+	.dt-sc-donutchart3 div span{color:#36a6a0;}
+	.dt-sc-donutchart4 div span{color:#f4d30f;}
+	.dt-sc-donutchart-title{font-weight:400; font-size:18px; text-transform:uppercase;}
+	.dt-sc-donutchart-title, .dt-sc-donutchart-medium{font-family: 'Open Sans', sans-serif;}
+
+	/*----*****---- << 9.Team >> ----*****----*/
+	.dt-sc-team{float:left; width:100%; text-align:center; margin-bottom:25px; overflow:hidden;}
+	.dt-sc-team .team-thumb{display:table; position:relative; margin:55px auto 65px auto;}
+	.dt-sc-team .team-thumb .hexagon2{width:183px; height:107px; left:-1px; top:0px;}
+	.dt-sc-team .team-thumb .hexagon{width:185px; height:107px; position:relative;}
+	.dt-sc-team h5{margin-bottom:0px; font-weight:600;}
+	.dt-sc-team h6{font-weight:400; color:#7c7c7c;}
+	.dt-sc-social-icons{display:inline-block; margin:0px auto 15px auto;}
+	.dt-sc-team .dt-sc-social-icons li{display:inline-block; margin:0px 3px;}
+	.dt-sc-social-icons .hexagon2{width:25px; height:15px; position:relative; margin:10px 0px;}
+	.dt-sc-social-icons li:hover .hexagon2, .dt-sc-social-icons li:hover .hexagon2 .corner1, .dt-sc-social-icons li:hover .hexagon2 .corner2{-webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s;}
+	.dt-sc-social-icons li .fa-facebook{color:#3a589b;}
+	.dt-sc-social-icons li .fa-twitter{color:#598dca;}
+	.dt-sc-social-icons li .fa-dribbble{color:#f06c9f;}
+	.dt-sc-social-icons li .fa-linkedin{color:#1f418e;}
+	.dt-sc-social-icons li .hexagon2 .fa{font-size:14px; font-family:FontAwesome; line-height:15px; width:100%; text-align:center; position:absolute; left:0;}
+	.dt-sc-social-icons li:hover .hexagon2 .fa{color:#ffffff; z-index:1;}
+	
+	.dt-sc-testimonial-wrapper.type2 .hexagon-shapes .hexagon{width:48px; height:27px;}
+	.dt-sc-testimonial-wrapper.type2 .hexagon-shapes .hexagon2{width:46px; height:27px; left:0px;}
+	.dt-sc-testimonial-wrapper.type2 .hexagon-shapes .fa{font-size:24px; font-family:FontAwesome; font-weight:normal; position:absolute; width:100%; line-height:28px; text-align:center; left:0px;}
+	.dt-sc-testimonial-wrapper.type2 .hexagon-shapes:before{right:73px;}
+	.dt-sc-testimonial-wrapper.type2 .hexagon-shapes:after{left:73px;}
+	.dt-sc-testimonial-wrapper.type2 .hexagon-shapes:before, .dt-sc-testimonial-wrapper.type2 .hexagon-shapes:after{min-width:170px; top:15px; position:absolute; display:block; content:""; background-color:#ededed; height:1px;}
+	.dt-sc-testimonial-wrapper.type2 .hexagon-shapes{margin:37px auto 50px;}
+	
+	
+	/*----*****---- << 10.Contact-info-box >> ----*****----*/	
+	.dt-sc-contact-info{float:left; padding:15px 25px 30px 30px; width:63%; margin-left:20px; background-color:rgba(0,0,0,0.8); border-radius:5px;}
+	.dt-sc-contact-info h5{border-bottom:1px solid #4c4c4c; margin-bottom:15px;}
+	.dt-sc-contact-info .small-line{width:20px; height:1px; display:block; margin:5px 0px -1px 0px;}
+	.dt-sc-contact-info p{font-size:14px; line-height:25px; font-weight:400; clear:both; margin-bottom:7px; color:#ffffff;}
+	.dt-sc-contact-info .fa{font-size:15px; font-family:FontAwesome; font-weight:normal; float:left; margin:5px 10px 10px 0px;}
+	.dt-sc-contact-info .note{font-size:12px; line-height:22px; clear:both; margin-left:23px;}
+
+	.dt-sc-contact-info .dt-sc-social-icons{float:left; display:block; margin-bottom:0px;}
+	.dt-sc-social-icons .hexagon{width:27px; height:16px; transform:none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; margin:10px 0px; }
+	.dt-sc-social-icons li:hover .hexagon, .dt-sc-social-icons li:hover .corner1, .dt-sc-social-icons li:hover .corner2{background-color:#ffffff; -webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s;}
+	.dt-sc-contact-info .dt-sc-social-icons li{float:left; display:block; margin-right:10px; }
+	.dt-sc-social-icons li .hexagon .fa{font:normal 16px FontAwesome; line-height:16px; width:100%; position:absolute; display:block; margin:0px; text-align:center;} 
+	.dt-sc-contact-info .dt-sc-social-icons li .fa{color:#000000;}
+	.dt-sc-contact-info .margin25{margin-bottom:25px;}
+	
+	
+	
+	

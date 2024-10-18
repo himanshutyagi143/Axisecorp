@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding: 0;}
+.top_banner{background: url("../images/background.jpg");}
+.form_title{text-align: center;margin-top: 34px;}
+.title_onetext{background: #e96121;padding: 5px 20px;color: #fff;font-weight: bold; font-size: 18px;}
+.title_twotext{color:#1f2f62;font-weight: bold; font-size: 30px}
+.price-sec{margin-top:34px;}
+.container.cont_box {
+    padding: 80px 0;
+}
+.numb,.or{font-weight: bold;}
+.numb{font-size:24px;}
+.bt:hover{background:#db9d27 !important;}
+@media only screen and (max-width: 600px) {
+  .container.cont_box {
+    padding: 10px 0;
+}
+	.title_onetext{    font-size: 14px;}
+	.title_twotext{    font-size: 22px;}
+}

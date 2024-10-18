@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*----*****---- << Color >> ----*****----*/
+
+.wlast, a:hover, .about-us-detail h6, .theme-service .left:hover .hexagon-shapes .fa, .theme-service .right:hover .hexagon-shapes .fa, .tweet-list h4 a, .tweet-content .hexagon-shapes .hexagon2 .fa, .carousel-arrows .fa:hover, .features .fa, input[type="submit"]:hover, #main-menu ul li:hover a, #main-menu ul li.current_page_item a, .dt-sc-testimonial-wrapper.type2 .hexagon-shapes .fa, .entry-details .entry-title h4 a, .widget h4.widgettitle a:hover, .dt-sc-icon-content.type2:hover h2, .dt-sc-icon-content.type2:hover .hexagon-shapes .fa, .dt-sc-contact-info h5, .dt-sc-contact-info .fa, .dt-sc-button:hover, .dt-sc-button .fa:hover, .dt-sc-icon-content h4, .dt-sc-testimonial-content p, .dt-sc-testimonial-content .quotes:before, .dt-sc-testimonial-content .quotes:after, .dt-sc-star-icons .fa, .dt-sc-team h5, .tweets a, ul.recent-posts-widget li a:hover, .entry-details .entry-metadata h6 a:hover, ul.commentlist li .author-name a:hover, #secondary .widget .tweet-text a:hover, .author-desc h5 a:hover, .links li:hover .hexagon .fa, .client-detail li .fa, .client-detail li a, .parallax-text h3 a:hover{color:#d36b5e;}
+	
+	
+
+/*----*****---- << Background Color >> ----*****----*/
+	
+.small-line, .hexagon, input[type="submit"], .top-content-menu .active, .top-content-menu a:hover, .sorting-container .active-all, .sorting-container a:hover, .mean-container a.meanmenu-reveal, .mean-container .mean-nav ul li a, #secondary .widget_categories ul li:hover, .widget_categories ul li:hover, .widget_categories ul li:hover .hexagon2, .widget_categories ul li:hover .hexagon2 .corner1, .widget_categories ul li:hover .hexagon2 .corner2, .widget.widget_tag_cloud .tagcloud a:hover, .copyright, .dt-sc-icon-content.type2:hover .hexagon, .dt-sc-icon-content.type2:hover .hexagon .corner1, .dt-sc-icon-content.type2:hover .hexagon .corner2, .dt-sc-contact-info .small-line, .dt-sc-button, .dt-sc-icon-content.type1:hover .hexagon, .dt-sc-icon-content.type1:hover .hexagon .corner1, .dt-sc-icon-content.type1:hover .hexagon .corner2, .image-overlay .small-line, .dt-sc-social-icons li:hover .hexagon2, .dt-sc-social-icons li:hover .hexagon2 .corner1, .dt-sc-social-icons li:hover .hexagon2 .corner2, .bx-wrapper .slider li{background-color:#d36b5e;}
+
+.gallery .image-overlay{background-color:rgba(211,107,94,0.6);}
+
+.jcarousel li:hover { background-color:#ebc5c0;}
+
+.mean-container .mean-nav ul li a:hover {background:#da6d5f;}
+
+/*----*****---- << Border Color >> ----*****----*/	
+	
+.entry-author-image .hexagon2, .entry-author-image .hexagon2 .corner1, .entry-author-image .hexagon2 .corner2, .theme-service .left:hover .hexagon-shapes .hexagon2, .theme-service .left:hover .hexagon-shapes .hexagon2 .corner1, .theme-service .left:hover .hexagon-shapes .hexagon2 .corner2, .theme-service .right:hover .hexagon-shapes .hexagon2, .theme-service .right:hover .hexagon-shapes .hexagon2 .corner1, .theme-service .right:hover .hexagon-shapes .hexagon2 .corner2, .dt-sc-icon-content.type2:hover .hexagon2, .dt-sc-icon-content.type2:hover .hexagon2 .corner1, .dt-sc-icon-content.type2:hover .hexagon2 .corner2, .dt-sc-social-icons li .hexagon2, .dt-sc-social-icons li .hexagon2 .corner1, .dt-sc-social-icons li .hexagon2 .corner2, .tweet-content .hexagon-shapes .hexagon2, .tweet-content .hexagon-shapes .hexagon2 .corner1, .tweet-content .hexagon-shapes .hexagon2 .corner2, .dt-sc-testimonial-wrapper.type2 .hexagon-shapes .hexagon2, .dt-sc-testimonial-wrapper.type2 .hexagon-shapes .hexagon2 .corner1, .dt-sc-testimonial-wrapper.type2 .hexagon-shapes .hexagon2 .corner2, .project-details .dt-sc-social-icons li:hover .hexagon2, .project-details .dt-sc-social-icons li:hover .hexagon2 .corner1, .project-details .dt-sc-social-icons li:hover .hexagon2 .corner2{border-left:1px solid #d36b5e; border-right:1px solid #d36b5e;}
+
+.founder-thumb .hexagon2, .founder-thumb .hexagon2 .corner1, .founder-thumb .hexagon2 .corner2, .testimonial-thumb .hexagon2, .testimonial-thumb .hexagon2 .corner1, .testimonial-thumb .hexagon2 .corner2, .team-thumb .hexagon2, .team-thumb .hexagon2 .corner1, .team-thumb .hexagon2 .corner2, .dt-sc-icon-content.type1 .hexagon2, .dt-sc-icon-content.type1 .hexagon2 .corner1, .dt-sc-icon-content.type1 .hexagon2 .corner2{border-left:2px solid #d36b5e; border-right:2px solid #d36b5e;}
+
+.jcarousel-pagination a, .bx-wrapper .bx-pager.bx-default-pager a, .widget.widget_tag_cloud .tagcloud a:hover, input[type="submit"], .dt-sc-button{border:1px solid #d36b5e;}
+
+.purchase-now:hover{border:3px solid #d36b5e;}
+
+.theme-service .hexagon2, .theme-service .hexagon2 .corner1, .theme-service .hexagon2 .corner2{border-left:1px solid rgba(211,107,94,0.5); border-right:1px solid rgba(211,107,94, 0.5);}
+	
+	
+/*----*****---- << Box Shadow >> ----*****----*/
+
+.jcarousel-pagination a:hover, .jcarousel-pagination a.active, .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{box-shadow:0px 0px 0px 2px #d36b5e inset;}
+

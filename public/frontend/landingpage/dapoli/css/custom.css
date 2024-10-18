@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding: 0px; margin: 0px;}
+body,html{ font-family: 'Montserrat', sans-serif; height:100%;}
+a{ -webkit-transition: all 200ms linear; -moz-transition: all 200ms linear; -o-transition: all 200ms linear; transition:all 200ms linear; cursor:pointer; text-decoration: none;}
+.clear{ clear: both; margin: 0px; padding: 0px;}
+ul { display:block; margin:0; padding:0; list-style:none;}
+img {max-width:100%;}
+p{ line-height:24px;}
+
+.container{ width:100%; margin:0 auto;}
+.top_section{ margin:0px; padding:0px; position:relative; max-height:700px; overflow:hidden;}
+.top_section .logo{ position:absolute; left:20px; top:20px;}
+.call_top{ background:#13384a; color:#fff; position:absolute; right:0px; top:20px; border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;}
+.call_top a{color:#fff; display:block; padding:10px 20px; font-size:15px;}
+.call_top a:hover{ color:#a7ffd7;}
+.top_section .heading_top{ position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);}
+.top_section .logo2{ position:absolute; left:50%; bottom:70px; transform: translate(-50%, 0); }
+.top_section .social{ position:absolute; right: 2%; bottom:100px;}
+.top_section .social a{ margin-left:10px;}
+
+video {
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+.plot_sec{ margin:0px; text-align:center; position:relative;
+background: url(../images/coming-soon-banner.jpg) no-repeat;
+padding: 0px 0px;
+text-align: center;
+height:260px;}
+
+.new-form {
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    z-index: 999;
+    width: 280px;
+	
+}
+
+.new-form .main_enq {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.new-form .main_enq h3 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    background: #002044;
+    color: #fff;
+    padding: 15px 10px; text-align:center; text-transform:uppercase;
+}
+
+.new-form .main_enq .pd {
+    padding: 20px 20px 30px 20px;
+}
+
+
+.inp {
+    background: #fff;
+    width: 96%;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 0px 2%;
+    border-radius: 6px;
+}
+
+.submit_btn {
+    background: #002044;
+    height: 40px;
+    font-size: 12px;
+    color: #fff;
+    border: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 6px;
+}
+
+.main_enq p {
+    margin: 15px 0 0 0px;
+}
+
+.plot_sec .heading{ position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);}
+.call_us{ margin:-5px 0 0 0px; position:relative;
+background: url(../images/call-us-banner.jpg) no-repeat;
+padding: 0px 0px;
+text-align: center;
+height:340px; background-size:cover;}
+.call_us img{ width:100%;}
+.call_us .hading{ font-size:40px; font-weight:700; text-transform:uppercase; color:#fff;  position: absolute; left: 50%; top:100px; transform: translate(-50%, 0);}
+.call_us a{ display:block; width:230px; height:70px; font-size:30px; border:5px solid #fff; text-align:center; line-height:70px; color:#fff; font-weight:700;  position: absolute; left: 50%; bottom:80px; transform: translate(-50%, 0);}
+.call_us a:hover{ background:#000;}
+.footer_sec{ background:#4a4a4a; padding:10px 20px; overflow:hidden; margin-top:0px;}
+.footer_sec .left{ float:left;}
+.footer_sec .left a{ color:#fff; display:inline-block; font-size:12px; border-right:1px solid #fff; padding-right:5px;}
+.footer_sec .left a:hover{ color:#a7ffd7;}
+.footer_sec .left a:last-child{ border:0px;}
+.footer_sec .right{ float:right;}
+.footer_sec .right p{ font-size:12px; color:#fff;}
+
+.desktop-none{ display:none;}
+
+ 
+/*RESPONSIVE CSS START HERE*/
+
+
+@media(min-width:768px) and (max-width:1024px){
+.top_section .logo2{ bottom:40px;}	
+.call_us .hading{ font-size:30px;}	
+.top_section .social{ bottom:10px;}
+.top_section .heading_top { left:5%;  top: 50%;  transform: translate(0%,0%);}
+.top_section .heading_top img{ width:50%;}
+.top_section .logo2 { position: absolute; left: 5%;  bottom: 30px; transform: translate(0%, 0);}
+.top_section .logo2 img{ width:80%;}
+.new-form{ top:18%;}
+}
+
+
+@media(max-width:767px){
+.top_section .logo img{ width:60%;}
+.call_top a{ padding:8px; font-size:12px;}
+
+
+.top_section .logo2 img{ width:85%;}
+.top_section .social{ top:35%; text-align:right; right:10px;}
+.top_section .social a{ margin-left:5px;}
+.call_us .hading{ font-size:24px;}
+.call_us a{ width:200px; font-size:20px; height:60px; line-height:60px;}
+.top_section .social a img{ width:12%;}
+.new-form{ position:inherit; display:block; width:100%;}
+.footer_sec .left{ width:100%; text-align:center;}
+.footer_sec .right{ width:100%; text-align:center;}
+.new-form{ right:0px; margin-top:-5px;}
+
+
+video{ height:400px!important; width:auto!important;}
+.plot_sec{ height:180px;}
+
+#panel, #flip {
+  padding: 15px;
+  cursor:pointer;
+
+}
+
+#panel {
+    display: none;
+}
+
+.plot_sec .heading {
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    transform: translate(0%, 0%);
+}
+
+.plot_sec img{ width:80%;}
+
+.mobile-none{ display:none!important;}
+.desktop-none{ display:block;}
+.desktop-none i{ padding-left:10px;}
+
+}
+
+

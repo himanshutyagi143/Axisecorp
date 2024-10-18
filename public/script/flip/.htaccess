@@ -1,0 +1,36 @@
+SetEnv APPLICATION_ENV development
+
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteCond %{REQUEST_URI} !^.*/torchaiccapi/.*$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R]
+
+RewriteCond %{HTTPS} on
+RewriteCond %{REQUEST_URI} ^.*/torchaiccapi/.*$
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R]
+
+
+RewriteCond %{HTTP_HOST} ^www.saferhub.com$
+RewriteRule ^(.*)$ https://saferhub.com/$1 [R,L] 
+
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]
+#RewriteRule !\.(pdf|php|js|ico|txt|gif|jpg|png|css|rss|zip|tar\.gz)$ public/$1 [L]
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#ErrorDocument 404 /404 
+
+<FilesMatch "\.(pdf|ico|txt|gif|jpg|rss|zip|tar|mp3|css|js)$">
+	# Order Allow,Deny
+	# Deny from all
+	#RewriteEngine On
+	RewriteCond %{HTTP_REFERER} ^$
+	RewriteRule .* https://%{HTTP_HOST}/403.shtml [R]
+</FilesMatch>
+

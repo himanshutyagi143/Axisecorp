@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding: 0px; margin: 0px;}
+body{ font-family: "Times New Roman", Times, serif;}
+a{ -webkit-transition: all 200ms linear; -moz-transition: all 200ms linear; -o-transition: all 200ms linear; transition:all 200ms linear; cursor:pointer; text-decoration: none;}
+.clear{ clear: both; margin: 0px; padding: 0px;}
+.container-wcp{ width:100%;}
+.banner_section{ position:relative;}
+.top_corner{ position:absolute; left:0px; top:0px; z-index:99999; }
+.banner_section .logo{ position:absolute; left:0; -webkit-transform: translateX(-50%); transform: translateX(-50%); top:0px; z-index:99999; width:200px; height:150px; background:#fff; text-align:center;
+-webkit-border-bottom-right-radius: 20px;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+.banner_section .container-wcp{ position:absolute; left:0px; bottom:0px; text-align:center;}
+.banner_section .container-wcp h2{ font-size:40px; color:#fff; padding:20px 0px 30px 0px;
+  margin-bottom:0px; font-weight:700;}
+
+
+
+.banner_section .logo img{ margin-top:65px; width:72%;}
+.logo_outer{ position:absolute; margin:0px; left:50%; top:0;}
+.banner_section .rotate{ position:absolute; left:20px; top:20px;  -webkit-transform: translateX(-50%); transform: translateX(-50%);  z-index:99999;}
+#round{-webkit-animation: rotation 2s infinite linear;}
+@-webkit-keyframes rotation {
+from {
+-webkit-transform: rotate(0deg);
+}
+to {
+-webkit-transform: rotate(359deg);
+}
+}
+
+.banner_section .heding{ position:absolute; right:2%; top:5%; z-index:99999; width:30%; padding:20px; background:#fff;
+-webkit-box-shadow: -5px 18px 13px -18px rgba(0,0,0,0.65);
+-moz-box-shadow: -5px 18px 13px -18px rgba(0,0,0,0.65);
+box-shadow: -5px 18px 13px -18px rgba(0,0,0,0.65);
+border-radius:5px;
+display:none;
+}
+.banner_section .heding ul{ margin:0px; padding:0px 0 0 0; list-style:none; }
+.banner_section .heding ul li{ font-size:15px; color:#000; margin-top:15px;}
+.banner_section .heding ul li span { display:block; float:left; margin-right:10px; margin-top:-8px;}
+.banner_section .heding ul li:last-child{ background:#fff; color:#000; border-radius:5px; padding:10px; border: 5px solid cadetblue;}
+
+
+
+.footer_btm{ background:#fff; padding:10px 2% 30px 2%;  left:0px; bottom:0px; width:96%; z-index:99999; overflow:hidden;}
+.footer_btm .left{ width:33%; float:left; text-align:center;}
+.footer_btm .mid{ width:33%; float:left; text-align:center;}
+.footer_btm .right{ width:33%; float:left; text-align:center;}
+.footer_btm a{ color:#000; font-size:20px; border-radius:1px 15px;}
+.footer_btm a img{ margin-bottom:-20px;}
+.footer_btm a:hover{ color:#fff;}
+
+
+.heding2{  font-family: 'Oswald', sans-serif; text-align:center; padding:15px 0px; background:#282425;}
+.heding2 h1{  font-size:30px;  color:#fcb716; }
+.heding2 p{ font-size:15px; color:#fcb716;}
+.price{ position:absolute; left:-200px; top:200px; }
+.price_responsive{ display:none;}
+.mobile_call{ display:none;}
+
+
+
+#yogvilla_landing_modal{z-index: 9999;}
+
+#verification_modal{z-index: 9999;}
+
+.call_section .right .call a{
+	-webkit-animation: color-change 1s infinite;
+	-moz-animation: color-change 1s infinite;
+	-o-animation: color-change 1s infinite;
+	-ms-animation: color-change 1s infinite;
+	animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+	0% { color: #fff; }
+	50% { color: #fff; }
+	100% { color: #fff; }
+}
+@-moz-keyframes color-change {
+	0% { color: #fff; }
+	50% { color: #fff; }
+	100% { color: #fff; }
+}
+@-ms-keyframes color-change {
+	0% { color: #fff; }
+	50% { color: #fff; }
+	100% { color: #fff; }
+}
+@-o-keyframes color-change {
+	0% { color: #fff; }
+	50% { color: #fff; }
+	100% { color: #fff; }
+}
+@keyframes color-change {
+	0% { color: #fff; }
+	50% { color: #fff; }
+	100% { color: #fff; }
+}
+
+
+
+.top_flower{ margin:0px 0 0 0; text-align:center;}
+.outer_main{ background:url("/frontend/yogvillas/wcp/images/bg.jpg") repeat ; padding:0 3% 3% 3%; position:absolute; left:0px; bottom:-30px; width:94%; z-index:99999;}
+.investment_price{ font-size:30px; text-align:center; padding:20px 0px; font-weight:700; letter-spacing:2px;}
+
+
+
+
+
+.top_strip{ margin:0px; overflow:hidden; font-size:20px; color:#fff;}
+.top_strip .left{ width:33.2%; float:left; text-align:center; background:#68b3ac; padding:15px 0px; text-transform:uppercase; border-right:1px solid #fff;}
+.top_strip .mid{ width:33.3%; float:left; text-align:center; background:#68b3ac; padding:15px 0px; text-transform:uppercase;  border-right:1px solid #fff;}
+.top_strip .right{ width:33.3%; float:left; text-align:center; background:#68b3ac; padding:15px 0px; text-transform:uppercase;}
+
+.inner_container{ width:1024px; margin:0 auto;}
+.feathure_sec{ padding:20px 0px;  background:#d8f1ee url("/frontend/yogvillas/wcp/images/bg.png") repeat ;}
+.feathure_sec .title{ font-size:36px; color:#434242; text-align:center; font-weight:700;}
+.feathure_sec ul{ margin:40px 0 0 0; padding:0px; overflow:hidden; list-style:none;}
+.feathure_sec ul li{ width:30%; float:left; margin:1% 1% 2% 1%; text-align:center;}
+.feathure_sec ul li p{ font-size:18px; color:#434242; padding-top:10px;}
+
+
+.call_section{ background:#086991; padding:10px 0px; overflow:hidden;}
+.call_section .left{ width:50%; float:left; font-size:30px; color:#fff;}
+.call_section .right{ width:100%;  text-align:center; }
+.call_section .right .call{ margin:0px; }
+.call_section .right .call a{ display:inline-block; font-size:26px; color;#086991;  padding:3px 20px;}
+
+
+.new_footer{ background:#68b3ac; padding:15px 0px; text-align:center; overflow:hidden;}
+.new_footer a{ display:inline; font-size:15px; color:#434242; margin-left:10px;}
+.new_footer a:hover{ text-decoration:underline;}
+
+.new_footer .mid{ margin-left:0px; float:left;}
+.new_footer .right{ float:right;}
+.new_footer .right p{ font-size:15px; color:#434242;}
+
+
+.banner_section .owl-nav{ position:absolute; left:0px; top:45%; width:100%;}
+.banner_section .owl-prev{ font-size:70px; color:#fff; left:2%; top;40%; position:absolute;}
+.banner_section .owl-next{ font-size:70px; color:#fff; left:95%; top;40%; position:absolute;}
+.banner_section .owl-nav .fa-angle-right::before { content: "\f054"; font-weight:700;}
+.banner_section .owl-nav .fa-angle-left::before { content: "\f053"; font-weight:700;}
+
+
+
+
+.inq_form{position:absolute; right:10%; top:0px; z-index:99999; background:#fff; padding:10px 20px;  width:350px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+} 
+.inq_form h3{ font-size:20px; margin-bottom:20px;}
+
+.btn{ background:#ccc;}
+
+
+/*RESPONSIVE CSS START HERE*/
+
+
+@media(min-width:992px) and (max-width:1024px){
+.footer_container {position: static; }
+
+.banner_section .logo img{ width:70%;}
+.banner_section .heding{ width:45%;}
+.price{ top:150px;}
+.footer_btm{ position:inherit;}
+.banner_section .heding ul li{ margin-top:15px; font-size:13px;} 
+.footer_btm{ padding:10px 2% 25px 2%;}
+.inner_container{ width:96%; padding:0px 2%}	
+.inq_form{ right:7%; width:300px;}
+.feathure_sec ul li p{ font-size:16px;}
+}
+
+@media(min-width:768px) and (max-width:991px){
+.footer_container {position: static; }
+.footer_btm .left,.footer_btm .mid,.footer_btm .right{ width:100%; text-align:center; position: static;}	
+.footer_btm .right{ padding-top:10px;}
+.top_corner img{ width:55%;}
+.banner_section .heding{ position:inherit; right:0; top:0; width:96%; padding:5% 2%; border-radius:0px;}
+
+.banner_section .logo img{ width:70%;}
+.footer_btm{ position:inherit;}
+.banner_section .heding ul{ margin-top:40px;}
+.banner_section .heding ul li img{ width:80%;}
+.banner_section .heding ul li{ font-size:14px;}
+.heding2 h1{ font-size:20px;}
+.heding2 p{ font-size:12px;}
+.price{ display:none;}
+.price_responsive{ display:block; margin:20px 0 auto 0; text-align:center;}
+.banner_section .heding ul li{ margin-top:15px;}
+.footer_btm .left{ width:33%; float:left; text-align:center;}
+.footer_btm .mid{ width:33%; float:left; text-align:center;}
+.footer_btm .right{ width:33%; float:left; text-align:center; padding:0px;}
+.footer_btm{ padding:10px 2% 30px 2%;}
+.footer_btm a{ font-size:18px;}
+
+
+.inner_container{ width:96%; padding:0px 2%}
+.banner_section .container h2{ font-size:30px;}
+.call_section .left{ font-size:24px;}
+
+.feathure_sec .title{ font-size:30px;}
+.feathure_sec ul li{ min-height: 150px;}
+.top_strip .left{ width:33%;}
+.top_strip{ font-size:12px;}
+.banner_section .container-wcp h2{ font-size:27px;}
+.inq_form{ position:inherit; left:0px; width:100%;}
+}
+
+
+@media(max-width:767px){
+.footer_container {position: static; }
+.footer_btm .left,.footer_btm .mid,.footer_btm .right{ width:100%; text-align:center; position: static;}	
+.footer_btm .right{ padding-top:10px;}
+.top_corner img{ width:55%;}
+.banner_section .heding{ position:inherit; right:0; top:0; width:96%; padding:5% 2%; border-radius:0px;}
+.banner_section .logo{ top:0px; width:200px; height:200px;}
+
+.footer_btm{ position:inherit;}
+.banner_section .logo {
+-webkit-transform: translateX(-53%);
+transform: translateX(-53%);
+}
+
+.banner_section .heding ul{ margin-top:-40px; }
+.banner_section .heding ul li img{ width:80%;}
+.banner_section .heding ul li{ font-size:14px;}
+.heding2 h1{ font-size:20px;}
+.heding2 p{ font-size:12px;}
+.price{ display:none;}
+.banner_section{ position:inherit;  }
+.owl-carousel .owl-item img{ height:250px!important;}
+.price_responsive{ display:block; margin:20px 0 auto 0; text-align:center;}
+
+.footer_btm .left{ width:100%; text-align:left; }
+.footer_btm .mid{ width:100%; text-align:left; margin-top:30px;}
+.footer_btm .right{ width:50%; text-align:left; margin-top:20px; display:none;}
+
+.footer_btm a{ font-size:23px; color:#fff;}
+
+.banner_section .heding ul{ margin-top:-10px;}
+.banner_section .logo{ width:130px; height:100px;}
+.rotate img{ width:70%;}
+.banner_section .logo img{ margin-top:45px;}
+.footer_btm{ background:#fff; padding-bottom:30px; padding-top:20px; }
+.banner_section .heding{ box-shadow: -5px 18px 13px -18px rgba(0,0,0,0);}
+
+.mobile_call{ background:#d3e9e6; padding:10px 10px 22px 10px; display:block;  }
+.mobile_call .right img{ margin-bottom:-20px;}
+.mobile_call a{ font-size:23px; color:#000;}
+.investment_price{ font-size:25px;}
+.top_flower {
+    margin: 12px 0 0 0;
+    text-align: center;
+    position: relative;
+    z-index: 9999999;
+}
+
+.logo_outer{ position:inherit;}
+.banner_section .logo{ left:50%;}
+.banner_section .rotate {
+    position: absolute;
+    left: 55%;
+    top: 13px;
+}
+
+.outer_main{ position:inherit;}
+
+
+.inner_container{ width:98%; margin:0 1%;}
+.banner_section .container-wcp h2{ font-size:16px; padding:15px 0px;}
+.feathure_sec ul li{ width:48%;}
+.feathure_sec ul li p{ font-size:14px; min-height:72px;}
+.call_section .left{ width:100%;}
+.call_section .left{ font-size:25px; text-align:center;}
+.call_section .right{ width:100%; text-align:center; margin-top:20px; display:none;}
+.new_footer .mid{ width:100%; padding-bottom:10px;}
+.new_footer .right{ width:100%; margin-top:10px; padding-bottom:30px;}
+.top_strip{ font-size:16px;}
+
+.call_section .right .call a{ font-size:24px;}
+
+.banner_section .owl-nav{ left:0px; top:40%; width:100%;}
+.banner_section .owl-prev{ font-size:40px; color:#fff; left:2%; top;40%; }
+.banner_section .owl-next{ font-size:40px; color:#fff; left:90%; top;40%;}
+
+.top_strip .left{ width:100%; border-bottom:1px solid #fff;}
+.top_strip .mid{ width:100%; border-bottom:1px solid #fff;}
+.top_strip .right{ width:100%; border-bottom:1px solid #fff;}
+.call_section{ display:none;}
+.feathure_sec .title{ font-size:15px;}
+.feathure_sec h2{ margin:0px;}
+.feathure_sec ul li img{ width:30%; height:45px;}
+.new_footer{ background:#086991;}
+.new_footer a, .new_footer .right p{ color:#fff;}
+
+.inq_form{ position:inherit; width:100%;}
+
+
+}
+
+.mobile-section {
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 999;
+display: none;
+width: 100%;
+}
+
+.mobile-section > .mobilebtn {
+    border: 1px solid #c8b9b9;
+    border-radius: 0px !important;
+    width: 100%;
+    padding: 14px 10px;
+    background: #681d18;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
+
+
+
+
+
+@media(max-width:370px){
+	
+.footer_btm a,.mobile_call a{ font-size:18px; color:#fff;}
+.feathure_sec ul li p{ font-size:13px;}	
+.banner_section .container-wcp h2{ font-size:14px;}
+.feathure_sec .title{ font-size:13px;}
+
+}
